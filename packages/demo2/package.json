@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "demo1": "^0.0.2-alpha.0",
+    "ste-test-demo1": "^0.0.2-alpha.0",
     "koa": "^2.13.0"
   },
   "gitHead": "01ddc438b09ceed4c018373d21ce9636cb8ff8a6"
