@@ -5,11 +5,11 @@
 1 silly argv   composed: 'publish',
 1 silly argv   lernaVersion: '3.18.3',
 1 silly argv   '$0': 'lerna',
-1 silly argv   distTag: 'test',
-1 silly argv   'dist-tag': 'test' }
+1 silly argv   distTag: 'v1.0.1',
+1 silly argv   'dist-tag': 'v1.0.1' }
 2 notice cli v3.18.3
 3 verbose rootPath /Users/stevenzwzhai/workspace/node/lerna-repo
-4 error Error: Invalid tag name "^null-alpha.1+5fdaec7": Tags may not have any characters that encodeURIComponent encodes.
+4 error Error: Invalid tag name "^null-alpha.3+3850a77": Tags may not have any characters that encodeURIComponent encodes.
 4 error     at invalidTagName (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:91:15)
 4 error     at fromRegistry (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:296:13)
 4 error     at Function.resolve (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:81:12)

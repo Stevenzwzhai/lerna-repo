@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "demo2": "^1.0.0",
+    "demo1": "^1.0.0",
     "koa": "^2.13.0"
   },
   "gitHead": "5fdaec7ffe91e2eda149cc2eeabb18863715ee5a"
