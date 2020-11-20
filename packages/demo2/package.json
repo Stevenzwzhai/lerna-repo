@@ -1,5 +1,5 @@
 {
-  "name": "demo2",
+  "name": "ste-test-demo2",
   "version": "0.0.2-alpha.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,5 @@
     "demo1": "^0.0.2-alpha.0",
     "koa": "^2.13.0"
   },
-  "gitHead": "bbbc76ef56b562357d83ae8307dcd0e511dded11"
+  "gitHead": "01ddc438b09ceed4c018373d21ce9636cb8ff8a6"
 }
