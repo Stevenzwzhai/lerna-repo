@@ -1,16 +1,20 @@
-0 silly argv { _: [ 'publish' ],
-0 silly argv   c: true,
-0 silly argv   canary: true,
-0 silly argv   composed: 'publish',
-0 silly argv   lernaVersion: '3.18.3',
-0 silly argv   '$0': 'lerna' }
-1 notice cli v3.18.3
-2 verbose rootPath /Users/stevenzwzhai/workspace/node/lerna-repo
-3 info canary enabled
-4 verbose session 8726c9b4f56832c2
-5 verbose user-agent lerna/3.18.3/node@v10.13.0+x64 (darwin)
-6 error Error: Command failed: git describe --always --long --dirty --first-parent
-6 error fatal: bad revision 'HEAD'
-6 error
-6 error     at makeError (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
-6 error     at Promise.all.then.arr (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/execa/index.js:278:16)
+0 warn deprecated --npm-tag has been renamed --dist-tag
+1 silly argv { _: [ 'publish' ],
+1 silly argv   c: true,
+1 silly argv   canary: true,
+1 silly argv   composed: 'publish',
+1 silly argv   lernaVersion: '3.18.3',
+1 silly argv   '$0': 'lerna',
+1 silly argv   distTag: 'test',
+1 silly argv   'dist-tag': 'test' }
+2 notice cli v3.18.3
+3 verbose rootPath /Users/stevenzwzhai/workspace/node/lerna-repo
+4 error Error: Invalid tag name "^null-alpha.1+5fdaec7": Tags may not have any characters that encodeURIComponent encodes.
+4 error     at invalidTagName (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:91:15)
+4 error     at fromRegistry (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:296:13)
+4 error     at Function.resolve (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:81:12)
+4 error     at Object.keys.forEach.depName (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:61:30)
+4 error     at Array.forEach (<anonymous>)
+4 error     at PackageGraph.forEach (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:55:38)
+4 error     at Map.forEach (<anonymous>)
+4 error     at new PackageGraph (/Users/stevenzwzhai/.nvm/versions/node/v10.13.0/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:44:10)
