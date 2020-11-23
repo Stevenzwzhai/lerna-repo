@@ -1,6 +1,6 @@
 {
   "name": "ste-test-demo2",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "koa": "^2.13.0",
-    "ste-test-demo1": "^0.0.7"
+    "ste-test-demo1": "^0.0.8"
   },
   "gitHead": "01ddc438b09ceed4c018373d21ce9636cb8ff8a6"
 }
